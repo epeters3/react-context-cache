@@ -1,0 +1,42 @@
+{
+    "name": "react-context-cache",
+    "version": "0.0.1",
+    "description": "A React Context/Provider pair for easily managing global state in a React app",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src --out-dir dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/epeters3/react-context-cache.git"
+    },
+    "keywords": [
+        "react",
+        "state",
+        "management",
+        "state",
+        "global",
+        "state",
+        "state",
+        "container",
+        "cache",
+        "context",
+        "asynchronous",
+        "storage"
+    ],
+    "author": "Evan Peterson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/epeters3/react-context-cache/issues"
+    },
+    "homepage": "https://github.com/epeters3/react-context-cache#readme",
+    "peerDependencies": {
+        "react": "^16.3.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1"
+    }
+}
