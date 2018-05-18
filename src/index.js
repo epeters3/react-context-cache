@@ -1,4 +1,4 @@
-import React from "react";
+const React = require("react");
 
 const CacheContext = React.createContext({
     // Default value
@@ -88,5 +88,7 @@ class CacheProvider extends React.Component {
 
 const CacheConsumer = CacheContext.Consumer;
 
-export const CacheProvider;
-export const CacheConsumer;
+module.exports = {
+    CacheProvider,
+    CacheConsumer
+};
