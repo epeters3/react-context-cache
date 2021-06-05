@@ -90,5 +90,6 @@ const CacheConsumer = CacheContext.Consumer;
 
 module.exports = {
     CacheProvider,
-    CacheConsumer
+    CacheConsumer,
+    CacheContext
 };
